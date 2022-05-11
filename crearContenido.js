@@ -12,3 +12,8 @@ form.addEventListener( 'submit', (e) =>  {
     form.reset();
     alert("Agregado correctamente")
 })
+
+function sumar()
+{
+    console.log("sumando...");
+}
