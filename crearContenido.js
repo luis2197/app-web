@@ -13,6 +13,7 @@ form.addEventListener( 'submit', (e) =>  {
     alert("Agregado correctamente")
 })
 
+
 function nombre() {
     let variable = 0;
     
