@@ -28,6 +28,7 @@
       addDoc(collection(db, 'publicaciones'),{titulo, autor, contenido})
   }
 
+  
   export const getPublicacion = () => {
     return getDocs(collection(db, 'publicaciones'))
   }

@@ -2,6 +2,7 @@ import { getPublicacion } from "./firebase.js";
 
 const mostrar = document.getElementById("mostrarDocs");
 
+//Obtener datos desde firebase
 window.addEventListener('DOMContentLoaded', async (event) => {
     const querySnapshot = await getPublicacion()
     let html = ""
