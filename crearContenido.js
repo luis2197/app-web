@@ -1,6 +1,6 @@
 import {setPublicacion} from './firebase.js';
 const form = document.getElementById("publicacion");
-
+console.log("");
 form.addEventListener( 'submit', (e) =>  {
     event.preventDefault()
 
